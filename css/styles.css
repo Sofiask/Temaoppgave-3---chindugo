@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E0F2E9;
+}
+
+@font-face {
+    font-family: PlayfairDisplay;
+    src: url(../assets/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: AllertaStencil;
+    src: url(../assets/AllertaStencil-Regular.ttf);
+}
+
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(../assets/LibreBaskerville-Regular.ttf);
+}
+
+h1 {
+    font-family: PlayfairDisplay;
+    font-weight: 300;
+    text-align: center;
+
+}
+.header-box {
+    height: 70px;
+    background-color: #3C887E;
+    font-size: 30px;
+    font-family: PlayfairDisplay;
+    text-align: center;
+    padding: 10px
+}
+
+.box1 {
+    height: 390px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/*.box1 img {
+    position: absolute;
+    right: 10px;
+    height: 390px;
+    width: 640px;
+}*/
+
+.product-name {
+    font-family: AllertaStencil;
+    font-size: 80px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.product-name2 {
+    font-family: AllertaStencil;
+    font-size: 30px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.photo2{
+    display: flex;
+    justify-content: center;  
+}
+
+.photo2 img {
+    position: absolute;
+    width: 500px;
+    align-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEB5A7;
+}
+
+video {
+    height: 500px;
+    margin: 12px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.textbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 300px;
+    font-family: LibreBaskerville;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.wrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.wrapper3 img {
+    width: 500px;
+}
+
+.wrapper4 {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.wrapper4 img {
+    width: 250px;
+    padding-right: 5px;
+}
+
