@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #E0F2E9;
-}
 
 @font-face {
     font-family: PlayfairDisplay;
@@ -23,63 +20,161 @@ body {
     src: url(../assets/LibreBaskerville-Regular.ttf);
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url(../assets/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 h1 {
     font-family: PlayfairDisplay;
     font-weight: 300;
     text-align: center;
-
 }
+
+h2 {
+    font-family: LibreBaskerville;
+    font-weight: 300;
+    text-align: center;
+    background-color: #CEB5A7;
+    padding-top: 50px;
+}
+
+@media screen and (min-width: 1300px) {
+    h2 {
+      font-size: 60px;  
+    }
+}
+
 .header-box {
     height: 70px;
-    background-color: #3C887E;
+    background-color: #CEB5A7;
     font-size: 30px;
     font-family: PlayfairDisplay;
     text-align: center;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
-.box1 {
-    height: 390px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+.card {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 40px;
+    margin-bottom: 80px;
 }
-/*.box1 img {
-    position: absolute;
-    right: 10px;
-    height: 390px;
-    width: 640px;
-}*/
 
-.product-name {
+.card-img {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+h1 {
     font-family: AllertaStencil;
     font-size: 80px;
-    text-align: right;
-    margin-right: 100px;
+    text-align: center;
 }
 
-.product-name2 {
+@media screen and (min-width: 1300px) {
+    h1 {
+      font-size: 80px;  
+    }
+}
+
+.card-text {
     font-family: AllertaStencil;
-    font-size: 30px;
-    margin-left: 80px;
-    margin-bottom: 20px;
-}
-
-.photo2{
+    font-size: 24px;
     display: flex;
-    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: #F0E9E5;
+    border-radius: 4px;
 }
 
-.photo2 img {
-    position: absolute;
-    width: 500px;
-    align-content: center;
+.card-text2 {
+    font-family: OpenSans;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #F0E9E5;
+    max-width: 600px;
 }
+
+@media screen and (min-width: 1300px) {
+    .card-text2 {
+      font-size: 24px;  
+    }
+}
+
+.button {
+    background-color: #54C4F1;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: OpenSans;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+@media screen and (min-width: 1300px) {
+    .button {
+      font-size: 30px;
+      margin: 40px;
+    }
+}
+
+.button:hover {
+    background-color: #FFF;
+    color: black;
+}
+
+.button2 {
+    background-color: #54C4F1;
+    border: 1px solid black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: OpenSans;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    background-color: #FFF;
+    color: black;
+}
+
 
 .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #CEB5A7;
+    height: 600px;
+}
+
+@media screen and (min-width: 1300px) {
+    .wrapper {
+    height: 900px;
+    }
 }
 
 video {
@@ -87,11 +182,18 @@ video {
     margin: 12px;
 }
 
+@media screen and (min-width: 1300px) {
+    video {
+    height: 700px;
+    }
+}
+
 .wrapper2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
 }
 
 .textbox{
@@ -99,33 +201,32 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 500px;
     height: 300px;
     font-family: LibreBaskerville;
     font-size: 16px;
     line-height: 1.8;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .wrapper3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
+    
 }
 
 .wrapper3 img {
-    width: 500px;
+    width: 300px;
+    border: 0.5px solid black;
+    padding: 20px;
+    margin-left: 5px;
 }
 
-.wrapper4 {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
-
-.wrapper4 img {
-    width: 250px;
-    padding-right: 5px;
-}
 
