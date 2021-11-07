@@ -15,10 +15,6 @@
     src: url(../assets/AllertaStencil-Regular.ttf);
 }
 
-/*@font-face {
-    font-family: LibreBaskerville;
-    src: url(../assets/LibreBaskerville-Regular.ttf);
-}*/
 
 @font-face {
     font-family: OpenSans;
@@ -51,6 +47,18 @@ h3 {
     }
 }
 
+h1 {
+    font-family: AllertaStencil;
+    font-size: 80px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1300px) {
+    h1 {
+      font-size: 80px;  
+    }
+}
+
 .header-box {
     height: 70px;
     background-color: #CEB5A7;
@@ -77,17 +85,6 @@ img {
     border-radius: 4px;
 }
 
-h1 {
-    font-family: AllertaStencil;
-    font-size: 80px;
-    text-align: center;
-}
-
-@media screen and (min-width: 1300px) {
-    h1 {
-      font-size: 80px;  
-    }
-}
 
 .card-text {
     font-family: AllertaStencil;
@@ -135,7 +132,7 @@ h1 {
 }
 
 .button {
-    background-color: #54C4F1;
+    background-color: #5B7B7A;
     border: 1px solid black;
     color: white;
     padding: 15px 32px;
@@ -164,7 +161,7 @@ h1 {
 }
 
 .button2 {
-    background-color: #54C4F1;
+    background-color: #5B7B7A;
     border: 1px solid black;
     color: white;
     padding: 15px 32px;
@@ -183,6 +180,12 @@ h1 {
 .button2:hover {
     background-color: #FFF;
     color: black;
+}
+
+@media screen and (min-width: 1300px) {
+    .button2 {
+      font-size: 30px;
+    }
 }
 
 
@@ -220,17 +223,6 @@ video {
     margin-bottom: 150px;
 }
 
-/*.textbox{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 300px;
-    font-family: LibreBaskerville;
-    font-size: 16px;
-    line-height: 1.8;
-}*/
 
 .container {
     width: 1000px;
